@@ -1,0 +1,57 @@
+<!-- Mobile menu in svg -->
+<header class="header container">
+  <nav class="nav flex">
+    <div class="logo-box">
+      <a
+        href="https://dyatskovskiy.github.io/project-teamwork/"
+        class="logo flex"
+      >
+        <span class="icon-logo">
+          <svg class="logo-svg" width="16" height="16">
+            <use href="./img/icons.svg#icon-logo"></use>
+          </svg> </span
+        >veggieboost</a
+      >
+    </div>
+    <div class="burger-box">
+      <button type="submit" class="burger-btn flex js-open-menu js-hide-on">
+        <svg class="burger-svg" width="24" height="24">
+          <use
+            class="js-btn-hide"
+            href="./img/icons.svg#icon-gg_menu-left"
+          ></use>
+          <use
+            class="js-close-menu js-hide-off js-btn-hide"
+            href="./img/icons.svg#icon-x"
+          ></use>
+        </svg>
+      </button>
+      <!-- MOBILE MENU -->
+      <div class="mob-menu flex container js-menu-container">
+        <ul class="header-menu flex">
+          <li class="header-menu-item">
+            <a href="#how-it-works" class="js-close-menu">How It Works</a>
+          </li>
+          <li class="header-menu-item">
+            <a href="#vegetables" class="js-close-menu">Vegetables</a>
+          </li>
+          <li class="header-menu-item js-close-menu">
+            <a href="#contacts">Contacts</a>
+          </li>
+        </ul>
+        <button
+          class="btn-cart js-close-menu"
+          type="button"
+          data-first-modal-open
+        >
+          <svg class="cart">
+            <use
+              class="size-cart"
+              href="./img/icons.svg#icon-shopping-cart"
+            ></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+</header>
